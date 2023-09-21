@@ -19,7 +19,7 @@ public class Tubo {
 
     public double calcolaVolume(){
         double volume;
-        volume = (calcolaSuperficie()*2);
+        volume = (calcolaSuperficie()*altezza);
         return volume;
     }
 
