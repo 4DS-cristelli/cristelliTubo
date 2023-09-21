@@ -46,7 +46,7 @@ public class Main {
                 flag = false;
             }
         }while (!flag);
-        System.out.println("\n\n\n");
+        System.out.println("\n\n");
 
         while (!exit){
             System.out.println("TUBO");
