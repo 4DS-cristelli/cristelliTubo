@@ -75,11 +75,10 @@ public class Main {
                     System.out.println("La superficie del tubo è di: "+tubo1.calcolaSuperficie());
                     break;
 
-
+                case 2:
+                    System.out.println("Il volume del tubo è di: "+tubo1.calcolaVolume());
+                    break;
             }
-
-
-
         }
 
 
