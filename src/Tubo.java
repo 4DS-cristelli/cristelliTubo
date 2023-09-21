@@ -10,6 +10,14 @@ public class Tubo {
             throw new Exception("Parametri errati");
         }
     }
+
+    public double calcolaSuperficie(){
+        double superficie;
+        superficie = 3.14*(raggio*raggio);
+        return superficie;
+    }
+
+
 }
 
 
