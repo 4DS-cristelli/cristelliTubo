@@ -47,7 +47,6 @@ public class Main {
             }
         }while (!flag);
 
-
         while (!exit){
             System.out.println("TUBO");
             System.out.println("0. Esci");
@@ -79,13 +78,8 @@ public class Main {
                     System.out.println("Il volume del tubo è di: "+tubo1.calcolaVolume());
                     break;
             }
+            System.out.println("\n\n\n");
         }
-
-
-
-
-
-
-        System.out.println("Hello world!");
+        System.out.println("Arrivederci");
     }
 }
