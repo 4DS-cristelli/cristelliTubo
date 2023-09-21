@@ -17,6 +17,12 @@ public class Tubo {
         return superficie;
     }
 
+    public double calcolaVolume(){
+        double volume;
+        volume = (calcolaSuperficie()*2);
+        return volume;
+    }
+
 
 }
 
