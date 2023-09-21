@@ -9,6 +9,8 @@ public class Main {
         float raggio= 0;
         float altezza = 0;
         boolean flag;
+        int scelta = -1;
+        boolean exit = false;
 
 
         do{
@@ -44,6 +46,39 @@ public class Main {
                 flag = false;
             }
         }while (!flag);
+
+
+        while (!exit){
+            System.out.println("TUBO");
+            System.out.println("0. Esci");
+            System.out.println("1. Calcola superficie");
+            System.out.println("2. Calcola volume");
+
+            do{//ciclo input selezione con eccezzioni
+                try{
+                    input = new Scanner(System.in);
+                    System.out.print("Inserisci la scelta:  ");
+                    scelta = input.nextInt();
+                    flag = true;
+                }catch(Exception e){
+                    System.out.println(e.getMessage());
+                    flag = false;
+                }
+            }while(!flag);
+
+            switch (scelta){
+                case 0:
+                    exit = true;
+                    break;
+
+
+
+            }
+
+
+
+        }
+
 
 
 
