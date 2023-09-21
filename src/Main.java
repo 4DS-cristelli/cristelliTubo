@@ -72,7 +72,7 @@ public class Main {
                     break;
 
                 case 1:
-                    System.out.println("La superficie del tubo è di:"+tubo1.calcolaSuperficie());
+                    System.out.println("La superficie del tubo è di: "+tubo1.calcolaSuperficie());
                     break;
 
 
